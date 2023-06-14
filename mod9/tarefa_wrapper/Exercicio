@@ -1,1 +1,14 @@
+/**
+ * @author nnkidev
+ */
+public class Exercicio
+{
+    public static void main(String[] args)
+    {
+        int primitivo = 100;
+        System.out.println("\n" + primitivo);
 
+        Integer wrapper = primitivo;
+        System.out.println(wrapper);
+    }
+}
