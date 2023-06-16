@@ -1,1 +1,10 @@
+package TarefaControleDeFluxo;
+/**
+ * @author nnkidev
+ */
+public class Exercicio
+{
+    public static void main(String[] args)
+    {
 
+    }
