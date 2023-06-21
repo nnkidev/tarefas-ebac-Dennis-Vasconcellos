@@ -1,3 +1,4 @@
+import java.util.Scanner;
 /**
  * @author nnkidev
  */
@@ -22,7 +23,7 @@ public class Exercicio
      float media = (nota1 + nota2 + nota3 + nota4) / 4;
      if(media >= 7)
         {
-         System.out.println("\nA sua média final é de: " + media + "/nPortanto, você está aprovado!");
+         System.out.println("\nA sua média final é de: " + media + "\nPortanto, você está aprovado!");
         }
      else if(media >= 5)
         {
