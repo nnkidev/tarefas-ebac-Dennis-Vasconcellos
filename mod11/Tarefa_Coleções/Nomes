@@ -1,0 +1,41 @@
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Set;
+import java.util.TreeSet;
+
+/**
+ * @author nnkidev
+ */
+
+public class Nomes
+{
+    public static void main(String[] args)
+    {
+        foraDeOrdem();
+        ordemAlfabetica();
+    }
+
+    private static void foraDeOrdem()
+    {
+        System.out.println("\n***** Lista fora de ordem *****");
+        List<String> lista = new ArrayList<>();
+        lista.add("Bruno");
+        lista.add("Carol");
+        lista.add("Alfredo");
+        System.out.println(lista + "\n");
+    }
+
+    private static void ordemAlfabetica()
+    {
+        System.out.println("***** Exemplo Lista Simples Ordem Crescente *****");
+
+        Set<String> lista = new TreeSet<>();
+        String a = new String("Bruno");
+        String b = new String("Carol");
+        String c = new String("Alfredo");
+        lista.add(a);
+        lista.add(b);
+        lista.add(c);
+        System.out.println(lista + "\n");
+    }
+}
